@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+a {
+	text-decoration: none;
+
+}
+a p {
+	font-weight: 300;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.medium-body-text {
+	font-size: 1.25vw;
+	font-weight: 300;
+	color: #1e1e1e;
+}
+
+#small-name {
+	color: #adadad;
+	font-size: 1.25vw;
+
+}
+
+.sticky-side {
+	position: fixed;
+	width: 12vw;
+}
+
+.side-nav {
+	padding-top: 13.6vh;
+}
+
+.bolded {
+	font-weight: bold;
+
+}
+
+.side-nav * {
+	padding-bottom: 1.6vh;
+}
+
+#intro-text{
+	padding-top: 27.6vh;
+}
+
+#name-logo {
+	padding-top: 14.35vh;
+}
+
+.name-big {
+	font-size: 8vw;
+	letter-spacing: -10px;
+	text-align: end;
+	font-weight: 500;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	margin-left: 4.16vw;
+	margin-right: 4.16vw;
+	margin-top: 5.74vh;
+}
