@@ -3,7 +3,8 @@
 
 
 <head>
-    <link href="TextStyles.css" rel="stylesheet" type="text/css">
+	<link href="TextStyles.css" rel="stylesheet" type="text/css">
+	<link href="index.css" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 	
@@ -11,9 +12,9 @@
 	
 	<div class="sticky-side">
 			
-		<div class="get-in-touch">
-			<p class="medium-body-text">Want to get right to the point?</p>
-		  <a href="#" class="medium-body-text bolded">Get in touch.</a>
+		<div >
+			<p class="small-body-text">Want to get right to the point?</p>
+		  <div id="get-in-touch"><a href="#" class="medium-body-text bolded">Get in touch.</a></div>
 		</div>
 			
 		<div class="side-nav">
@@ -27,9 +28,11 @@
 	
 	<div id="intro-text">
 		<center>
-			<p class="medium-body-text">
-			Karim is an engineer at Uwaterloo and designer in Toronto. </p>	
-			<p class="medium-body-text bolded">See how he's good at both.</p>
+			<div id="intro-text-container">
+				<p class="medium-body-text">
+				Karim is an engineer at Uwaterloo and designer in Toronto. </p>	
+				<p class="medium-body-text bolded">See how he's good at both.</p>
+			</div>
 		</center>
 	</div>
 	
@@ -38,12 +41,14 @@
 		<p class="name-big">Al-Atrash</p>
 	</div>
 	
-	<div id="all-my-stuff">
-		<p class="sub-header bolded">All My Stuff.</p>
-	</div>
+	
 
 	
 	<div id="portfolio-items">
+		
+		<div id="all-my-stuff">
+			<p class="sub-header bolded">See The Work I've Done.</p>
+		</div>
 
 		<center>
 		<div id="aligned-items">
@@ -51,7 +56,8 @@
 			<div>
 				<a href="#">
 					<div id="left-item" class="small-item">
-						<img src="assets/DX Logo.svg">
+						
+						<img class="item-image" src="assets/DX Logo.svg">
 					</div>
 				</a>
 			</div>
@@ -66,10 +72,10 @@
 
 		</div>
 
-		<div id="large-item-container">
+		<div  id="large-item-container">
 			<a href="#">
 				<div id="large-item">
-					<img src="assets/bayt house.svg">
+					<img class="item-image" src="assets/bayt house.svg">
 					<p>Bayt</p>
 				</div>
 			</a>

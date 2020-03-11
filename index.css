@@ -1,0 +1,92 @@
+#intro-text{
+	padding-top: 27.6vh;
+	
+}
+
+#intro-text-container {
+	max-width: 30rem;
+}
+
+#name-logo {
+	padding-top: 5vh;
+}
+.name-big {
+	font-size: 10vw;
+	letter-spacing: -0.5vw;
+	text-align: end;
+	font-weight: 700;
+}
+#all-my-stuff {
+	/*margin-left: vw;*/
+	padding-top: 11.5vh;
+}
+
+#portfolio-items {
+	margin-left: 14vw;
+}
+
+#aligned-items {
+	display: inline-flex;
+	margin-top: 5vw;
+}
+
+.item-image {
+	padding-top: 4rem;
+}
+
+.small-item {
+	text-align: center;
+	box-shadow: 8px 9px 9px #B1B1b1;
+	height: 20rem;
+	width: 24rem;
+	margin: 0.5vw;
+	border-radius: 10px;
+
+	transition: all .2s ease-in-out;
+}
+
+.small-item:hover {
+	transform: scale(1.01);
+}
+
+
+#left-item * {
+	padding-top: 2.75rem;
+}
+
+#left-item {
+	background-color: #35940A;
+}
+
+#right-item {
+	
+	background-color: #231352;
+}
+
+#democritus {
+	max-width: 95%;
+	max-height: 100%;
+}
+
+#large-item-container {
+	padding-top: 1vw;
+	width: 49rem;
+}
+
+#large-item {
+	text-align: center;
+	height: 20rem;
+	width: 100%;
+	background-image: radial-gradient(#A72E3B, #85152C);
+	/*background-color: #A72E3B;*/
+	box-shadow: 8px 9px 9px #B1B1b1;
+	border-radius: 10px;
+
+	transition: all .2s ease-in-out;
+
+}
+
+#large-item:hover {
+	transform: scale(1.01);
+}
+
