@@ -25,8 +25,28 @@ p {
 	color: #1e1e1e;
 }
 
+.xsmall-body-text {
+	font-size: 1.125rem;
+	font-weight: 300;
+	color: #1e1e1e;
+}
+
+.sub-header {
+	font-size: 2.25rem;
+}
+
+.header {
+	font-size: 3rem;
+	font-weight: 700;
+	color: #1e1e1e;
+}
+
 .bolded {
 	font-weight: bold;
+}
+
+.white {
+	color: #ffffff;
 }
 
 #get-in-touch {
@@ -64,10 +84,11 @@ p {
 
 
 
-.sub-header {
-	font-size: 2.25rem;
-}
 
+
+#left-aligned-text {
+
+}
 
 
 
