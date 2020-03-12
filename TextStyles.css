@@ -12,7 +12,11 @@ p {
 	margin: 0;
 	padding: 0;
 }
-
+.medium-large-body-text {
+	font-size: 1.875rem;
+	font-weight: 300;
+	color: #1e1e1e;
+}
 .medium-body-text {
 	font-size: 1.5rem;
 	font-weight: 300;
@@ -80,10 +84,6 @@ p {
 .side-nav *:hover {
 	transform: scale(1.01);
 }
-
-
-
-
 
 
 #left-aligned-text {
