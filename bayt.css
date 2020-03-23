@@ -1,6 +1,55 @@
-.main-content {
 
+/*
+GENERAL CLASS PROPERTIES
+*/
+.main-content {
+    margin-left: 18vw;
+    margin-right: 8vw;
 }
+
+.two-column-container {
+    padding-top: 6.5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.right-aligned-text {
+    text-align: right;
+}
+
+/*
+LANDING SCREEN
+*/
+#large-logo {
+    float: right;
+}
+
+.toc-text {
+    padding-top: 1rem;
+}
+
+#dynamic-screen {
+    max-height: 42vw;
+}
+
+/*
+PROJECT INTRO
+*/
+#roommates-are-hard {
+    max-width: 37.9375rem;
+}
+
+#project-info {
+    display: flexbox;
+    align-items: center;
+    
+}
+
+#project-info > p{
+    line-height: 2rem;
+}
+
 
 #dynamic-screen-container {
 
