@@ -3,14 +3,16 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 516 114.8" style="enable-background:new 0 0 516 114.8;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#FFFFFF;}
-	.st1{font-family:'Roboto-Bold';}
-	.st2{font-size:80px;}
-	.st3{font-family:'Roboto-Light';}
-	.st4{font-family:'ArialMT';}
+	.st0{enable-background:new    ;}
+	.st1{fill:#EAEAEA;}
+	.st2{font-family:'Roboto-Bold';}
+	.st3{font-size:100px;}
+	.st4{font-family:'AdobeArabic-Regular';}
+	.st5{fill:#FFFFFF;}
+	.st6{font-family:'Roboto-Light';}
+	.st7{font-size:80px;}
 </style>
 <title>Bayt White</title>
-<text transform="matrix(1 0 0 1 5.79 80.5399)" class="st0 st1 st2">Bayt —</text>
-<text transform="matrix(1 0 0 1 308.43 80.5399)" class="st0 st3 st2"> </text>
-<text transform="matrix(1 0 0 1 332.74 80.5399)" class="st0 st4 st2">بيت</text>
+<text transform="matrix(1 0 0 1 27.9998 80.5397)" class="st0"><tspan x="0" y="0" class="st1 st2 st3">Bayt —</tspan><tspan x="302.6" y="0" class="st1 st4 st3">بيت</tspan></text>
+<text transform="matrix(1 0 0 1 308.43 80.5399)" class="st5 st6 st7"> </text>
 </svg>
