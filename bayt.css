@@ -5,17 +5,27 @@ GENERAL CLASS PROPERTIES
 .main-content {
     margin-left: 18vw;
     margin-right: 8vw;
+    
+}
+
+.main-section {
+    margin-top: 6.75rem;
 }
 
 .two-column-container {
-    padding-top: 6.5vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
 }
-.right-aligned-text {
-    text-align: right;
+div.two-column-container{
+    padding-top: 6.5vh;
+
+}
+
+.user-map {
+    max-width: 55rem;
+    width: 50vw;
 }
 
 /*
@@ -28,40 +38,164 @@ LANDING SCREEN
 .toc-text {
     padding-top: 1rem;
 }
-
-#dynamic-screen {
-    max-height: 42vw;
+#dynamic-screen-container {
+    min-width: 30rem;
+    max-width: 60%;
 }
+#dynamic-screen {
+    max-width: 100%;
+}
+#toc-container {
+    width: 25w;
+}
+
 
 /*
 PROJECT INTRO
 */
 #roommates-are-hard {
-    max-width: 37.9375rem;
+    min-width: 30rem;
+    max-width: 65%;
 }
 
 #project-info {
     display: flexbox;
     align-items: center;
-    
+    max-width: 25%;
 }
 
 #project-info > p{
     line-height: 2rem;
 }
 
+/*
+FULL WIDTH BANNER
+*/
+.full-width-banner {
+    width: 99.25vw;
+    margin-top: 10vh;
+    margin-left: -4.16vw;
+	margin-right: -4.16vw;
+    background-color: #1e1e1e;
+    height: 60vh;
+    min-height: 30rem;
+    display: flex;
+    justify-content: center;
+} 
+.full-width-content-container {
+    margin: auto;
+    max-width: 50%;
+    
+}
+#large-stat {
+    font-size: 11rem;
+    font-weight: 700;
+    color: white;
+}
 
-#dynamic-screen-container {
+/*
+USER PERSONA
+*/
+#tarek-info-container {
+    padding-top: 3rem;
+}
+#tarek-info {
+    padding-top: 2rem;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.up-item {
+    max-width: 13rem;
+    min-width: 6rem;
+}
+
+#tarek-image {
+    width: 30%;
+}
+
+#tarek-goals {
+    width: 25%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#tarek-frustration {
+    width: 25%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#hmw-answers {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+/*
+IDEATION
+*/
+
+.key-design-text-container {
+    min-width: 10rem;
+    width: 30%;
+}
+.key-design-text {
+    padding-top: 1rem;
+    line-height: 2.25rem;
+}
+#design-choices-container {
+    width: 85%;
+    margin: auto;
+}
+
+/*
+MIDFI PROTOTYPE
+*/
+.midfi-screenshot {
+    width: 20%;
+}
+
+
+/*
+USER TESTING
+*/
+#method-container {
+    padding-top: 3vh;
+    width: 60%;
+}
+
+.results-image {
+    padding-top: 3vh;
+    max-width: 45rem;
+}
+.insights-column-text {
+    max-width: 45%;
+    min-width: 20rem;
+}
+
+/*
+FINAL PRODUCT
+*/
+.final-screenshot {
+    max-width: 25%;
+    min-width: 10rem;
+}
+
+#vd-choices-text-container {
+    max-width: 60%;
+}
+
+#vd-video-container * {
+    margin-left: auto;
 
 }
-#banner-statistic-container {
 
-}
-
-#statistic-text-container {
-
-}
-
-#statistic {
+/*
+TAKEAWAYS
+*/
+.takeaway-text {
+    max-width: 45%;
+    min-width: 20rem;
 
 }
