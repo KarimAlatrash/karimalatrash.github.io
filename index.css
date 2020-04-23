@@ -41,6 +41,10 @@ LANDING PAGE
 WORK IVE DONE
 */
 
+#bayt-image {
+	width: 20rem;
+}
+
 .small-item {
 	display: inline-block;
 	text-align: center;
