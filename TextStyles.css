@@ -64,6 +64,7 @@ p {
 }
 
 #get-in-touch:hover {
+	transition: all .2s ease-in-out;
 	transform: scale(1.01);
 }
 
@@ -90,10 +91,10 @@ p {
 
 .side-nav * {
 	margin-bottom: 1.6vh;
-	transition: all .2s ease-in-out;
 }
 
 .side-nav *:hover {
+	transition: all .2s ease-in-out;
 	transform: scale(1.01);
 }
 
@@ -128,6 +129,12 @@ p {
     justify-content: space-between;
     width: 100%;
 }
+
+.footer-content *:hover {
+	transition: all .2s ease-in-out;
+	transform: scale(1.01);
+}
+
 html {
 	background-color: #fcfdff;
 	scroll-behavior: smooth;
@@ -140,6 +147,7 @@ body {
 	margin-top: 5.74vh;
 	margin-bottom: 0;
 }
+
 
 
 
