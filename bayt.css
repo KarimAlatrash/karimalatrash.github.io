@@ -194,8 +194,8 @@ FINAL PRODUCT
 /*
 TAKEAWAYS
 */
-.takeaway-text {
+
+.takeaway-text-container {
     max-width: 45%;
     min-width: 20rem;
-
 }
