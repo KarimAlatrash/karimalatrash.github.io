@@ -8,83 +8,109 @@
 	<link href="index.css" rel="stylesheet" type="text/css">
 	<link href="animations.css" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.typekit.net/irk5bvc.css">
 </head>
 	
-<body>
-	
-	<div class="sticky-side">
-			
-		<div >
-			<p class="small-body-text">Want to get right to the point?</p>
-		  <div id="get-in-touch"><a href="mailto:kalatras@uwaterloo.ca" class="sticky-side-text" style="font-weight: 700;">Get in touch.</a></div>
-		</div>
-			
-		<div class="side-nav">
+<body>	
+
+	<!-- Sticky Header -->
+	<div class="header" id="myHeader">
+            
+		<div class="header-content-container">
+
 			<a href="index.html"><p id="small-name">Karim <span style="color: #2156AC;">Al-Atrash</span></p></a>
-			<a href="index.html#all-my-stuff" ><p class="sticky-side-text">Work</p></a>
-			<a target="_blank" href="https://docs.google.com/document/d/1OLK70_w5W3HmsGKQ3xz-VfO0vutBYAEobwcoIwr7E2s/edit?usp=sharing" ><p class="sticky-side-text">Resume</p></a>
-			<a href="mailto:kalatras@uwaterloo.ca" ><p class="sticky-side-text">Contact</p></a>
-				
+
+			<div class="header-content">
+				<a href="index.html" ><p class="sticky-side-text white">Work</p></a>
+				<a htarget="_blank" href="https://docs.google.com/document/d/1OLK70_w5W3HmsGKQ3xz-VfO0vutBYAEobwcoIwr7E2s/edit?usp=sharing" ><p class="sticky-side-text white">Resume</p></a>
+				<a href="mailto:kalatras@uwaterloo.ca" ><p class="sticky-side-text white">Contact</p></a>
+			</div>
+
+		</div> 
+	</div>
+
+
+	<div class="content">
+		<!-- Centered Main Page Text -->
+		<div id="intro-text" class="landing-page-content"> 
+			<center>
+				<div id="intro-text-container">
+					<p id="first-text">
+					Hi! I'm an engineer at UWaterloo and a designer in Toronto. </p>	
+					<p id="first-text" style="font-weight: 700; margin-top: 10px;">See how I'm good at both.</p>
+				</div>
+				<div class="scroll-button-container">
+					<a href="#all-my-stuff">
+						<img class="scroll-button"  src="assets/down arrow.svg">
+					</a>
+				</div>
+			</center>
 		</div>
-	</div>
-	
-	<div id="intro-text"> 
-		<center>
-			<div id="intro-text-container">
-				<p id="first-text">
-				Hi! I'm an engineer at UWaterloo and a designer in Toronto. </p>	
-				<p id="first-text" style="font-weight: 700; margin-top: 10px;">See how I'm good at both.</p>
-			</div>
-		</center>
-	</div>
-	
-	<div id="name-logo" class="fade-in-one">
-		<p class="name-big">Karim</p>
-		<p class="name-big"><span style="color: #2156AC;">Al-Atrash</span></p>
-	</div>
-	
-	<div id="all-my-stuff">
-		<p class="sub-header">See The Work I've Done<span style="color: #2156AC;">.</span></p>
-	</div>
-	
-	<div id="portfolio-items">
-		<div id="portfolio-items-wrapper">
-			<a href="bayt.html">
-				<div id="large-item-container">
-						<div id="large-item">
-							<img id="bayt-image" src="assets/Bayt-White.png">
-							
-						</div>
-						
-				</div>
-			</a>
-			<div id="aligned-items">
-
-				<div id="left-item-container">
-					<a href="bespoke.html">
-						<div id="left-item" class="small-item">
-							<img id="bespoke-image" src="assets/bespoke-b.svg">
-							
-						</div>
-					</a>
-				</div>
-
-				<div id="right-item-container">
-					<a href="https://github.com/KarimAlatrash/democritus">
-						<div id="right-item" class="small-item">
-							<img id="democritus" src="assets/democritus.png">
-						</div>
-					</a>
-				</div>
-
-			</div>
-
+		
+		<!-- Large Name -->
+		<!-- <div id="name-logo" class="fade-in-one">
+			<p class="name-big"><span class="large-first-name">Karim</span> <span class="large-last-name">Al-Atrash</span></p>
 			
+		</div> -->
+		
+		<!-- Portfolio Container -->
+		<div id="all-my-stuff">
+			<p class="sub-header">See The Work I've Done<span style="color: #2156AC;">.</span></p>
+		</div>
 
+		<!-- All The Items -->
+		<div id="portfolio-items">
+			<div id="portfolio-items-wrapper">
+
+				<a href="https://wellify.studio">
+					<div id="large-wellify-container">
+							<div id="large-wellify">
+								
+								<svg width="168" height="52" viewBox="0 0 168 52" fill="none"><path d="M49.96 21.2H55.4L57.48 30.72C57.5067 30.8533 57.7067 32.08 58.08 34.4C58.1333 34.88 58.24 35.6 58.4 36.56H58.56C59.0133 33.9733 59.4133 32.0267 59.76 30.72L62.08 21.2H66.88L69.24 30.72C69.6667 32.5333 70.0267 34.2133 70.32 35.76L70.48 36.56H70.64L71.12 33.72C71.1733 33.4 71.2267 32.9867 71.28 32.48C71.36 31.9733 71.4667 31.3867 71.6 30.72L73.64 21.2H78.72L73.88 41H67.48L65.48 32.64C64.9733 30 64.6133 28.08 64.4 26.88H64.24C63.8133 29.4133 63.4533 31.3467 63.16 32.68L61.28 41H55L49.96 21.2ZM98.4716 30.2C98.4716 31.2133 98.3916 32.04 98.2316 32.68H85.9916C86.2582 34.2533 86.8982 35.4133 87.9116 36.16C88.9516 36.9067 90.1516 37.28 91.5116 37.28C92.9249 37.28 94.3916 36.84 95.9116 35.96L97.7116 39.28C96.7249 39.9733 95.6182 40.52 94.3916 40.92C93.1916 41.2933 91.9916 41.48 90.7916 41.48C88.9249 41.48 87.2316 41.0667 85.7116 40.24C84.2182 39.4133 83.0316 38.2133 82.1516 36.64C81.2982 35.0667 80.8716 33.2267 80.8716 31.12C80.8716 29.04 81.2982 27.2133 82.1516 25.64C83.0316 24.0667 84.1782 22.8533 85.5916 22C87.0049 21.1467 88.5116 20.72 90.1116 20.72C92.8049 20.72 94.8716 21.6 96.3116 23.36C97.7516 25.0933 98.4716 27.3733 98.4716 30.2ZM93.7916 29.04C93.7916 27.76 93.4982 26.76 92.9116 26.04C92.3249 25.2933 91.4316 24.92 90.2316 24.92C89.2449 24.92 88.3649 25.2667 87.5916 25.96C86.8449 26.6267 86.3382 27.6533 86.0716 29.04H93.7916ZM107.698 41.48C105.912 41.48 104.618 40.9333 103.818 39.84C103.018 38.7467 102.618 37.2 102.618 35.2V12.88H108.058V35.44C108.058 36 108.165 36.4133 108.378 36.68C108.592 36.92 108.832 37.04 109.098 37.04C109.365 37.04 109.605 37.0133 109.818 36.96L110.498 41.04C109.725 41.3333 108.792 41.48 107.698 41.48ZM118.948 41.48C117.162 41.48 115.868 40.9333 115.068 39.84C114.268 38.7467 113.868 37.2 113.868 35.2V12.88H119.308V35.44C119.308 36 119.415 36.4133 119.628 36.68C119.842 36.92 120.082 37.04 120.348 37.04C120.615 37.04 120.855 37.0133 121.068 36.96L121.748 41.04C120.975 41.3333 120.042 41.48 118.948 41.48ZM125.118 21.2H130.558V41H125.118V21.2ZM127.838 18.12C126.932 18.12 126.185 17.8533 125.598 17.32C125.038 16.76 124.758 16.0533 124.758 15.2C124.758 14.3467 125.038 13.6533 125.598 13.12C126.185 12.56 126.932 12.28 127.838 12.28C128.745 12.28 129.478 12.56 130.038 13.12C130.625 13.6533 130.918 14.3467 130.918 15.2C130.918 16.0533 130.625 16.76 130.038 17.32C129.478 17.8533 128.745 18.12 127.838 18.12ZM144.737 16.72C143.19 16.72 142.417 17.72 142.417 19.72V21.2H146.057V25.52H142.417V41H136.937V25.52H134.297V21.44L136.937 21.24V19.84C136.937 17.6 137.497 15.8 138.617 14.44C139.764 13.08 141.55 12.4 143.977 12.4C145.364 12.4 146.644 12.64 147.817 13.12L146.817 17.16C146.097 16.8667 145.404 16.72 144.737 16.72ZM151.257 48.88C150.297 48.88 149.377 48.7467 148.497 48.48L149.497 44.28C150.057 44.4667 150.511 44.56 150.857 44.56C152.617 44.56 153.817 43.6 154.457 41.68L154.777 40.56L147.097 21.2H152.617L155.617 30.12C155.937 31.0533 156.311 32.2933 156.737 33.84C156.924 34.56 157.097 35.1867 157.257 35.72H157.417C157.764 34.2 158.231 32.3333 158.817 30.12L161.417 21.2H166.657L159.697 41.44C158.737 44 157.631 45.88 156.377 47.08C155.124 48.28 153.417 48.88 151.257 48.88Z" fill="#4A7D3D"></path><path d="M0 21.0547C0 21.0547 2.89899 33.4362 6.12436 36.8165C11.1015 44.0316 21.5097 42.9645 22.6558 41.2155C23.8018 39.4664 21.3865 28.3157 15.8401 24.0238C10.2936 19.7319 0 21.0547 0 21.0547Z" fill="#755E94"></path><path d="M9.80539 9.68335C9.80539 9.68335 20.1856 14.5492 22.5966 21.6692C25.0076 28.7892 23.9814 40.352 22.4897 41.5491C20.998 42.7462 12.4304 38.0508 9.82143 30.3491C7.21246 22.6476 9.80539 9.68335 9.80539 9.68335Z" fill="#DCCCE4"></path><path d="M32.6135 9C32.6135 9 22.5296 14.865 20.5209 22.2004C18.5124 29.5357 20.1711 40.9685 21.7304 42.0168C23.2894 43.0653 31.5755 37.55 33.7457 29.6123C35.9159 21.6746 32.6135 9 32.6135 9Z" fill="#E0F1E0"></path><path d="M43 21.0437C43 21.0437 40.7623 31.0323 37.9425 35.0005C33.8118 43.1013 23.5214 43.6477 22.1946 42.1382C20.8675 40.6284 22.034 29.1289 27.0496 23.8106C32.0653 18.4921 43 21.0437 43 21.0437Z" fill="#4A7D3D"></path><circle cx="127.5" cy="15.5" r="3.5" fill="#755E94"></circle></svg>
+								
+							</div>
+							
+					</div>
+				</a>
+				<a href="bayt.html">
+					<div id="large-item-container">
+							<div id="large-item">
+								<img id="bayt-image" src="assets/Bayt-White.png">
+								
+							</div>
+							
+					</div>
+				</a>
+				<div id="aligned-items">
+
+					<div id="left-item-container">
+						<a href="bespoke.html">
+							<div id="left-item" class="small-item">
+								<img id="bespoke-image" src="assets/bespoke-b.svg">
+								
+							</div>
+						</a>
+					</div>
+
+					<div id="right-item-container">
+						<a href="https://github.com/KarimAlatrash/democritus">
+							<div id="right-item" class="small-item">
+								<img id="democritus" src="assets/democritus.png">
+							</div>
+						</a>
+					</div>
+
+				</div>
+
+				
+
+			</div>
 		</div>
 	</div>
 
-	<div class="footer">
+
+	<!-- Footer -->
+	<!-- <div class="footer">
             
 		<div class="footer-content-container">
 
@@ -97,10 +123,10 @@
 			</div>
 
 		</div> 
-	</div>
+	</div> -->
 	
 	
-	
+	<script src="index.js"></script>
 		
 </body>
 </html>

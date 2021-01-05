@@ -2,7 +2,8 @@
 LANDING PAGE
 */
 #intro-text{
-	padding-top: 22vh;	
+	padding-top: 30vh;	
+	padding-bottom: 30vh;
 }
 
 #intro-text-container {
@@ -19,16 +20,13 @@ LANDING PAGE
 #name-logo {
 	padding-top: 5vh;
 }
-.name-big {
-	font-size: 10vw;
-	letter-spacing: -0.5vw;
-	text-align: end;
-	font-weight: 700;
-}
+
 #all-my-stuff {
 	margin-left: 14vw;
 	padding-top: 11.5vh;
 }
+
+
 
 /*
 WORK IVE DONE
@@ -79,7 +77,6 @@ WORK IVE DONE
 }
 
 #large-item-container {
-	margin-top: 5vw;
 	display: inline-flex;
 	width: 49rem;
 }
@@ -107,17 +104,45 @@ WORK IVE DONE
 	transform: scale(1.01);
 }
 
+#large-wellify-container {
+	display: inline-flex;
+	width: 49rem;
+	margin-bottom: 1.5vw;
+}
+
+
+
+#large-wellify {
+	height: 20rem;
+	width: 100%;
+	background-image: radial-gradient(#ffffff, #e7d1eb);
+	box-shadow: 8px 9px 9px #B1B1b1;
+	border-radius: 10px;
+
+	transition: all .2s ease-in-out;
+	
+	display: flex; 
+	flex-wrap: wrap;
+	align-items: center; 
+	justify-content: center; 
+	text-align: center;
+}
+
+#large-wellify:hover {
+	transition: all .2s ease-in-out;
+	transform: scale(1.01);
+}
+
 #portfolio-items {
-	margin-left: 14vw;
 	text-align: center;
 }
 
 #portfolio-items-wrapper {
+	padding-top: 5vw;
 	margin: auto;
 }
 
 #case-study-slideout {
-
 	width: auto;
 	display: none;
 }
@@ -129,6 +154,68 @@ WORK IVE DONE
 
 }
 
+.header {
+	height: inherit;
+	width: auto;
+	margin-left: -4.16vw;
+	margin-right: -4.16vw;
+	margin-bottom: -8px;
+	background-color: white;
+	box-shadow: 0px 4px 6px #DEDEDE;
+}
 
+.header-content-container {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	margin: auto;
+	width: 30%;
+}
 
+.header-content {
+	padding-top: 2rem;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
 
+.header-content *:hover {
+	transition: all .2s ease-in-out;
+	transform: scale(1.01);
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+	padding-top: 102px;
+  }
+
+  .scroll-button-container {
+	  padding-top: 2rem;
+  }
+  .scroll-button {
+	fill:#85152C;
+	color:#85152C;
+	width: 40px;
+	transition: all .2s ease-in-out;
+	animation: float 3s ease-in-out infinite;
+
+  }
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-8px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
