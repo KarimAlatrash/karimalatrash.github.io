@@ -23,7 +23,7 @@ LANDING PAGE
 
 #all-my-stuff {
 	margin-left: 14vw;
-	padding-top: 11.5vh;
+	margin-top: 11.5vh;
 }
 
 
@@ -102,6 +102,7 @@ WORK IVE DONE
 #large-item:hover {
 	transition: all .2s ease-in-out;
 	transform: scale(1.01);
+	
 }
 
 #large-wellify-container {
@@ -120,7 +121,7 @@ WORK IVE DONE
 	border-radius: 10px;
 
 	transition: all .2s ease-in-out;
-	
+	position: static;
 	display: flex; 
 	flex-wrap: wrap;
 	align-items: center; 
@@ -131,6 +132,8 @@ WORK IVE DONE
 #large-wellify:hover {
 	transition: all .2s ease-in-out;
 	transform: scale(1.01);
+	position: initial;
+
 }
 
 #portfolio-items {
@@ -140,6 +143,10 @@ WORK IVE DONE
 #portfolio-items-wrapper {
 	padding-top: 5vw;
 	margin: auto;
+	display: flex;
+    flex-flow: column;
+	align-items: center;
+	padding-bottom: 10rem;
 }
 
 #case-study-slideout {
@@ -160,8 +167,11 @@ WORK IVE DONE
 	margin-left: -4.16vw;
 	margin-right: -4.16vw;
 	margin-bottom: -8px;
+	margin-top: -10px;
 	background-color: white;
 	box-shadow: 0px 4px 6px #DEDEDE;
+	position: sticky;
+	z-index: 1;
 }
 
 .header-content-container {
