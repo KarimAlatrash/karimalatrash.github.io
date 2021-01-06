@@ -137,6 +137,7 @@ WORK IVE DONE
 }
 
 #portfolio-items {
+	margin-top: 11.5vh;
 	text-align: center;
 }
 
@@ -146,7 +147,6 @@ WORK IVE DONE
 	display: flex;
     flex-flow: column;
 	align-items: center;
-	padding-bottom: 10rem;
 }
 
 #case-study-slideout {
@@ -217,6 +217,61 @@ WORK IVE DONE
 	animation: float 3s ease-in-out infinite;
 
   }
+
+  .socials {
+	padding-top: 5vw;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-bottom: 10rem;
+  }
+.section-header-container{
+	text-align: start;
+	width: 49rem;
+	padding-bottom: 3rem;
+}
+.social-container {
+	width: 20rem;
+	height: 5rem;
+	display:inline-flex;
+	flex-flow: row nowrap;
+
+	padding-left: 20%;
+	margin-bottom:1rem;
+	background: #ffffff;
+
+	box-shadow: 4px 5px 5px #B1B1b1;
+	border-radius: 10px;
+	transition: all .2s ease-in-out;
+
+	align-items: center;
+	justify-content: start;
+	align-content: space-around;
+}
+.social-container:hover {
+	transition: all .2s ease-in-out;
+	transform: scale(1.05);
+	position: initial;
+	background: #ffffff;
+
+}
+
+#mail-container {
+	background: #ffffff;
+}
+#github-container {
+	background: #ece8f5;
+}
+#linkedin-container {
+	background: #edf4ff;
+}
+.mail-icon {
+	width: 30px;
+}
+.socials-text {
+	margin-left: 2rem;
+}
 
 @keyframes float {
 	0% {
