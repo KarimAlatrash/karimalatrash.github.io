@@ -83,7 +83,7 @@ WORK IVE DONE
 
 
 
-#large-item {
+#large-bayt {
 	height: 20rem;
 	width: 100%;
 	background-image: radial-gradient(#A72E3B, #85152C);
@@ -129,11 +129,29 @@ WORK IVE DONE
 	text-align: center;
 }
 
-#large-wellify:hover {
+
+
+.grow-animate:hover {
 	transition: all .2s ease-in-out;
 	transform: scale(1.01);
 	position: initial;
 
+}
+
+#large-donation-tracker {
+	height: 20rem;
+	width: 100%;
+	background-image: radial-gradient(rgba(17,31,154,1), #005eca);
+	box-shadow: 8px 9px 9px #B1B1b1;
+	border-radius: 10px;
+
+	transition: all .2s ease-in-out;
+	position: static;
+	display: flex; 
+	flex-wrap: wrap;
+	align-items: center; 
+	justify-content: center; 
+	text-align: center;
 }
 
 #portfolio-items {
