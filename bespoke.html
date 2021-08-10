@@ -5,34 +5,78 @@
         <link href="TextStyles.css" rel="stylesheet" type="text/css">
         <link href="bayt.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/png" href="assets/favicon.png" sizes="32x32">
+	<link href="TextStyles.css" rel="stylesheet" type="text/css">
+	<link href="index.css" rel="stylesheet" type="text/css">
+	<link href="animations.css" rel="stylesheet" type="text/css">
+    <link href="bayt.css" rel="stylesheet" type="text/css">
+	<link href="socials.css" rel="stylesheet" type="text/css">
     </head>
 
     <body>
 
-        <div class="sticky-side">
-                    
-            <div >
-                <p class="small-body-text">Want to get right to the point?</p>
-            <div id="get-in-touch"><a href="mailto:kalatras@uwaterloo.ca" class="sticky-side-text" style="font-weight: 700;">Get in touch.</a></div>
-            </div>
+        <!-- Sticky Header -->
+        <div class="header" id="myHeader">
                 
-            <div class="side-nav">
-                <a href="/"><p id="small-name">Karim <span style="color: #2156AC;">Al-Atrash</span></p></a>
-                <a href="/#all-my-stuff" ><p class="sticky-side-text">Work</p></a>
-                <a target="_blank" href="https://docs.google.com/document/d/1OLK70_w5W3HmsGKQ3xz-VfO0vutBYAEobwcoIwr7E2s/edit?usp=sharing" ><p class="sticky-side-text">Resume</p></a>
-                <a href="mailto:kalatras@uwaterloo.ca" ><p class="sticky-side-text">Contact</p></a>
-                    
-            </div>
-        </div>
+            <div class="header-content-container">
 
-        <div class="right-aligned-text" style="width: 50vw; float: right;">
-            <p style="padding-top: 5rem;" class="header bolded">Sorry, Bespoke Metrics UI/UX Designer Summary Hasn't Been Built Yet :(</p>
-            
-            <div style="width: 75%; float: right;">
-                <p style="padding-top: 3rem; line-height: 3rem;" class="medium-body-text">To find the experience I got from Bespoke Metrics see my <a class="bolded" style="color:#2156AC" href="https://docs.google.com/document/d/1OLK70_w5W3HmsGKQ3xz-VfO0vutBYAEobwcoIwr7E2s/edit?usp=sharing">resume</a>
-                or talk to me about it <a a class="bolded" style="color:#2156AC" href="mailto:kalatras@uwaterloo.ca">in person :).</a></p>
+                <a href="/"><p id="small-name">Karim <span style="color: #2156AC;">Al-Atrash</span></p></a>
+
+                <div class="header-content">
+                    <a href="#portfolio-items-wrapper" ><p class="sticky-side-text white">Work</p></a>
+                    <a htarget="_blank" href="https://drive.google.com/file/d/1sTYo7Qhk_80Ip9TuboHrXu0im1TKsz8o/view?usp=sharing" ><p class="sticky-side-text white">Resume</p></a>
+                    <a href="#socials" ><p class="sticky-side-text white">Contact</p></a>
+                </div>
+
+            </div> 
+        </div>
+        <div class="two-column-container">
+            <div style="width: 40%; min-width: 30rem; display:flex; justify-content: center;">
+                <div id="left-item-container" style="align-content: center;">
+                    <a href="https://www.bespokemetrics.com/">
+                        <div id="left-item" class="small-item">
+                            <img id="bespoke-image" src="assets/bespoke-b.svg">
+                            
+                        </div>
+                    </a>
+                </div>
             </div>
-         </div>
+
+            <div class="right-aligned-text" id="right" style="min-width: 40rem; width: 60%; float: right;">
+                <p style="padding-top: 2rem; padding-bottom: 1rem;" class="medium-large-body-text bolded">UI/UX Designer @ Bespoke Metrics</p>
+                
+                <div style="float: right;">
+                    <div style="padding-top:1rem;">
+                        <span class="small-body-text bolded" style="color:#2156AC; padding-top: 1rem;">Employment Type</span>
+                        <p style="" class="xsmall-body-text"> 
+                            4 Month Internship
+                        </p>
+                    </div>
+    
+                    <div style="padding-top:1rem;">
+                        <span class="small-body-text bolded" style="color:#2156AC; padding-top: 1rem;">My Co-op In General</span>
+                        <p style="" class="xsmall-body-text"> 
+                        
+                            At Bespoke Metrics, I was given the freedom to explore
+                            my creative product side. I developed interfaces for a platform to help
+                            large general contractors hire subcontractors based on a proprietary financial rating
+                            and their previous performances on the job site.
+                        </p>
+                    </div>
+    
+                    <div style="padding-top:1rem;">
+                        <span class="small-body-text bolded" style="color:#2156AC; padding-top: 1rem;">What I Accomplished </span>
+                        <p class="xsmall-body-text"> 
+                            
+                            While I was there, I designed an at-a-glance interface to show users a company's performance rating,
+                            and integrated IDEO standard design processes into the design team's workflow.
+                        </p>
+                    </div>
+                    
+                </div>
+             </div>
+        </div>
+        
 
 
     </body>

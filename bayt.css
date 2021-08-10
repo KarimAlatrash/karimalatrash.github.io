@@ -48,6 +48,10 @@ GENERAL CLASS PROPERTIES
     justify-content: space-between;
     width: 100%;
 }
+
+#right .two-column-container {
+    float:right;
+}
 div.two-column-container{
     padding-top: 6.5vh;
 

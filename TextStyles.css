@@ -62,8 +62,9 @@ p {
 
 .xsmall-body-text {
 	font-size: 1rem;
-	font-weight: 300;
+	font-weight: 100;
 	color: #1e1e1e;
+	letter-spacing: 1.5px;
 }
 
 .sub-header {
