@@ -47,6 +47,10 @@ WORK IVE DONE
 	width: 20rem;
 }
 
+#forcen-image {
+	width: 10rem;
+}
+
 .small-item {
 	display: inline-block;
 	text-align: center;
@@ -138,6 +142,21 @@ WORK IVE DONE
 	text-align: center;
 }
 
+#large-forcen {
+	height: 20rem;
+	width: 100%;
+	background-image: radial-gradient(#1d1c1c, #514f52);
+	box-shadow: 8px 9px 9px #B1B1b1;
+	border-radius: 10px;
+
+	transition: all .2s ease-in-out;
+	position: static;
+	display: flex; 
+	flex-wrap: wrap;
+	align-items: center; 
+	justify-content: center; 
+	text-align: center;
+}
 
 
 .grow-animate:hover {
@@ -180,11 +199,19 @@ WORK IVE DONE
 }
 
 #small-hubhead {
+	width: 100%;
+	background-image: radial-gradient(rgb(236, 236, 238), #d1d1d1);
+	box-shadow: 8px 9px 9px #B1B1b1;
+	border-radius: 10px;
+	background-image: radial-gradient(rgb(236, 236, 238), #d1d1d1);
+
+	transition: all .2s ease-in-out;
+	position: static;
 	display: flex; 
+	flex-wrap: wrap;
 	align-items: center; 
 	justify-content: center; 
 	text-align: center;
-	background-image: radial-gradient(rgb(236, 236, 238), #d1d1d1);
 
 }
 #portfolio-items {
